@@ -81,7 +81,7 @@ def load_and_enrich_raw_data():
         movie["keywords"]=details["keywords"]
 
         if(i+1)%10==0:
-            print(f"Processed {i+1}/{len(movies)} movies , end='\r'")
+            print(f"Processed {i+1}/{len(movies)} movies", end="\r")
 
         time.sleep(0.25)
 
@@ -180,7 +180,7 @@ def clean_movies(movies):
 
 def save_processed_data(df):
     csv_path=PROCESSED_DATA_PATH / "indian_movies_clean.csv"
-    df.to_csv(csv_path,index=False,encoding="utf-8-sig")
+    df.to_csv(csv_path, index=False, encoding="utf-8-sig", quoting=1)
     print(f"Saved CSV : {csv_path}")
 
     json_path=PROCESSED_DATA_PATH / "indian_movies_clean.json"
