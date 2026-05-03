@@ -219,12 +219,9 @@ DB_URL=your_supabase_postgresql_connection_string
 
 ## 🚀 Roadmap
 
-- [ ] Cast and director analysis — top actors/directors per language
-- [ ] Similarity search — "movies like Vikram" with conversational preference refinement
-- [ ] Sentence transformer embeddings for semantic similarity
-- [ ] Expand dataset to 2000+ films for better vibe search coverage
 - [ ] Tableau Public dashboard integration
-- [ ] User ratings and watchlist feature
+- [ ] Cast and director analysis — top actors/directors per language
+- [ ] Expand dataset to 2000+ films for better vibe search coverage
 
 ---
 
