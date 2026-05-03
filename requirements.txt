@@ -1,0 +1,12 @@
+requests
+pandas
+numpy
+plotly
+streamlit
+psycopg2-binary
+sqlalchemy
+groq
+google-generativeai
+python-dotenv
+scipy
+supabase
