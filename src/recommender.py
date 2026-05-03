@@ -265,9 +265,12 @@ def vibe_search(user_input):
     filtered = filter_movies(df, params)
     
     # Step 4 — Generate recommendations
+    top_5 = filtered.nlargest(5, "vote_average")
+
+    # Generate recommendations from the same top 5
     print("\n✍️ Generating recommendations...")
     recommendations = generate_recommendations(
-        user_input, params, filtered
+        user_input, params, top_5
     )
     
     # Step 5 — Prepare results
