@@ -7,8 +7,24 @@ from groq import Groq
 
 load_dotenv()
 
-GROQ_API_KEY=os.getenv("GROQ_API_KEY")
-GROQ_MODEL=os.getenv("GROQ_MODEL","llama-3.3-70b-versatile")
+load_dotenv()
+
+def get_secret(key):
+    """
+    Gets secrets from Streamlit Cloud when deployed,
+    falls back to .env when running locally.
+    """
+    try:
+        import streamlit as st
+        return st.secrets[key]
+    except Exception:
+        return os.getenv(key)
+
+TMDB_TOKEN = get_secret("TMDB_TOKEN")
+GROQ_API_KEY = get_secret("GROQ_API_KEY")
+GROQ_MODEL = get_secret("GROQ_MODEL") or "llama-3.3-70b-versatile"
+DB_URL = get_secret("DB_URL")
+
 PROCESSED_DATA_PATH=Path("data/processed")
 
 client=Groq(api_key=GROQ_API_KEY)

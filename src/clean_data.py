@@ -8,8 +8,19 @@ from dotenv import load_dotenv
 import time
 
 load_dotenv()
-TMDB_TOKEN=os.getenv("TMDB_TOKEN")
-base_url="https://api.themoviedb.org/3"
+
+def get_secret(key):
+    """
+    Gets secrets from Streamlit Cloud when deployed,
+    falls back to .env when running locally.
+    """
+    try:
+        import streamlit as st
+        return st.secrets[key]
+    except Exception:
+        return os.getenv(key)
+
+TMDB_TOKEN = get_secret("TMDB_TOKEN")
 
 headers={
     "Authorization":f"Bearer {TMDB_TOKEN}",

@@ -8,7 +8,22 @@ from scipy import stats
 
 load_dotenv()
 
-DB_URL=os.getenv("DB_URL")
+load_dotenv()
+
+def get_secret(key):
+    """
+    Gets secrets from Streamlit Cloud when deployed,
+    falls back to .env when running locally.
+    """
+    try:
+        import streamlit as st
+        return st.secrets[key]
+    except Exception:
+        return os.getenv(key)
+
+TMDB_TOKEN = get_secret("TMDB_TOKEN")
+DB_URL = get_secret("DB_URL")
+
 PROCESSED_DATA_PATH=Path("data/processed")
 
 def get_engine():
