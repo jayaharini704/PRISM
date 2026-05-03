@@ -1,0 +1,280 @@
+{
+  "summary": {
+    "runtime_by_decade": {
+      "1980": 156.0,
+      "1990": 167.4,
+      "2000": 172.9,
+      "2010": 152.7,
+      "2020": 155.2
+    },
+    "volume_by_decade": {
+      "1980": 1,
+      "1990": 18,
+      "2000": 43,
+      "2010": 138,
+      "2020": 88
+    },
+    "top_genre_by_decade": {
+      "1980": "Drama",
+      "1990": "Drama",
+      "2000": "Action",
+      "2010": "Action",
+      "2020": "Action"
+    },
+    "language_stats": {
+      "movie_count": {
+        "Hindi": 100,
+        "Kannada": 8,
+        "Malayalam": 41,
+        "Tamil": 97,
+        "Telugu": 42
+      },
+      "avg_rating": {
+        "Hindi": 6.72,
+        "Kannada": 7.06,
+        "Malayalam": 7.31,
+        "Tamil": 6.87,
+        "Telugu": 6.86
+      },
+      "avg_runtime": {
+        "Hindi": 161.39,
+        "Kannada": 154.88,
+        "Malayalam": 144.59,
+        "Tamil": 156.4,
+        "Telugu": 163.1
+      },
+      "avg_popularity": {
+        "Hindi": 3.74,
+        "Kannada": 2.77,
+        "Malayalam": 1.09,
+        "Tamil": 1.22,
+        "Telugu": 1.74
+      },
+      "hidden_gems": {
+        "Hindi": 17,
+        "Kannada": 0,
+        "Malayalam": 6,
+        "Tamil": 8,
+        "Telugu": 3
+      },
+      "gem_rate": {
+        "Hindi": 1.7,
+        "Kannada": 0.0,
+        "Malayalam": 1.46,
+        "Tamil": 0.82,
+        "Telugu": 0.71
+      }
+    },
+    "total_movies": 288,
+    "year_range": "1987 - 2026",
+    "avg_rating": 6.88,
+    "total_hidden_gems": "34",
+    "most_productive_decade": 2010,
+    "runtime_trend": "Average runtime dropped from 156 min (1980s) to 155 min (2020s)"
+  },
+  "runtime_by_decade": {
+    "avg_runtime": {
+      "1980": 156.0,
+      "1990": 167.44444444444446,
+      "2000": 172.90697674418604,
+      "2010": 152.65942028985506,
+      "2020": 155.17045454545453
+    },
+    "median_runtime": {
+      "1980": 156.0,
+      "1990": 171.0,
+      "2000": 171.0,
+      "2010": 157.0,
+      "2020": 157.5
+    },
+    "std_runtime": {
+      "1980": NaN,
+      "1990": 19.71927161947454,
+      "2000": 22.729060435076303,
+      "2010": 18.757186993125053,
+      "2020": 25.061864417215165
+    },
+    "movie_count": {
+      "1980": 1,
+      "1990": 18,
+      "2000": 43,
+      "2010": 138,
+      "2020": 88
+    }
+  },
+  "genre_ratings": {
+    "avg_rating": {
+      "Drama": 7.24371186440678,
+      "Horror": 7.2158,
+      "Comedy": 7.153833333333334,
+      "Thriller": 7.0822352941176465,
+      "Crime": 6.9206666666666665,
+      "Romance": 6.79105,
+      "Adventure": 6.7043333333333335,
+      "Action": 6.59888
+    },
+    "movie_count": {
+      "Drama": 59,
+      "Horror": 5,
+      "Comedy": 30,
+      "Thriller": 17,
+      "Crime": 15,
+      "Romance": 20,
+      "Adventure": 6,
+      "Action": 125
+    }
+  },
+  "top_hidden_gems": [
+    {
+      "title": "Dilwale Dulhania Le Jayenge",
+      "language_name": "Hindi",
+      "primary_genre": "Comedy",
+      "release_year": 1995,
+      "vote_average": 8.514,
+      "runtime": 190,
+      "keywords_str": "family's daily life, family history, love-hate relationship, family drama, love affair, curious, casual",
+      "poster_url": "https://image.tmdb.org/t/p/w500/2CAL2433ZeIihfX1Hb2139CX0pW.jpg"
+    },
+    {
+      "title": "Kumbalangi Nights",
+      "language_name": "Malayalam",
+      "primary_genre": "Comedy",
+      "release_year": 2019,
+      "vote_average": 8.043,
+      "runtime": 135,
+      "keywords_str": "",
+      "poster_url": "https://image.tmdb.org/t/p/w500/lJ3RvIirE2C7gdBKvPRaoQ3iCo2.jpg"
+    },
+    {
+      "title": "My Name Is Khan",
+      "language_name": "Hindi",
+      "primary_genre": "Drama",
+      "release_year": 2010,
+      "vote_average": 8.015,
+      "runtime": 165,
+      "keywords_str": "autism, mumbai (bombay), india, based on true story, prejudice, religion, disability, asperger's syndrome, asian american",
+      "poster_url": "https://image.tmdb.org/t/p/w500/5Y36lCiNyyV71mjq6LavgiggbhT.jpg"
+    },
+    {
+      "title": "3 Idiots",
+      "language_name": "Hindi",
+      "primary_genre": "Drama",
+      "release_year": 2009,
+      "vote_average": 7.996,
+      "runtime": 171,
+      "keywords_str": "challenge, middle class, slapstick comedy, coming of age, flashback, teacher, friends, engineering, university, subjective camera, smart kid, poor kid, looking for friend, plot twist, inspirational, student, life advice, amused, delhi",
+      "poster_url": "https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw79z8Tew.jpg"
+    },
+    {
+      "title": "Like Stars on Earth",
+      "language_name": "Hindi",
+      "primary_genre": "Drama",
+      "release_year": 2007,
+      "vote_average": 7.956,
+      "runtime": 162,
+      "keywords_str": "jealousy, parent child relationship, boarding school, painter, father, dyslexia, teacher, little boy, india, childhood, teachers and students, melodramatic",
+      "poster_url": "https://image.tmdb.org/t/p/w500/puHRt6Raovm5ujGCdwLWvRv4NHU.jpg"
+    },
+    {
+      "title": "12th Fail",
+      "language_name": "Hindi",
+      "primary_genre": "Drama",
+      "release_year": 2023,
+      "vote_average": 7.912,
+      "runtime": 146,
+      "keywords_str": "awestruck",
+      "poster_url": "https://image.tmdb.org/t/p/w500/eebUPRI4Z5e1Z7Hev4JZAwMIFkX.jpg"
+    },
+    {
+      "title": "Dangal",
+      "language_name": "Hindi",
+      "primary_genre": "Drama",
+      "release_year": 2016,
+      "vote_average": 7.883,
+      "runtime": 161,
+      "keywords_str": "small town, strong woman, sports, parent child relationship, empowerment, abusive father, feminism, wrestling, training, biography, autobiography, domestic abuse, fighting, womanhood, endurance, woman vs woman fight, female empowerment, determination, strength training, overcoming fears, father daughter relationship, cheerful, excited",
+      "poster_url": "https://image.tmdb.org/t/p/w500/1CoKNi3XVyijPCvy0usDbSWEXAg.jpg"
+    },
+    {
+      "title": "Vada Chennai",
+      "language_name": "Tamil",
+      "primary_genre": "Action",
+      "release_year": 2018,
+      "vote_average": 7.838,
+      "runtime": 166,
+      "keywords_str": "gangster, gang war, historical fiction, criminal underworld, gang warfare, prison fight, north chennai, factionism",
+      "poster_url": "https://image.tmdb.org/t/p/w500/4Pa7SriYtq4BdoS2BAPm6w66vLi.jpg"
+    },
+    {
+      "title": "Bajrangi Bhaijaan",
+      "language_name": "Hindi",
+      "primary_genre": "Comedy",
+      "release_year": 2015,
+      "vote_average": 7.796,
+      "runtime": 159,
+      "keywords_str": "religion, journey, lost child",
+      "poster_url": "https://image.tmdb.org/t/p/w500/vhlliI7HZZlWfo5d6CiyfBAGLrW.jpg"
+    },
+    {
+      "title": "Soorarai Pottru",
+      "language_name": "Tamil",
+      "primary_genre": "Drama",
+      "release_year": 2020,
+      "vote_average": 7.7940000000000005,
+      "runtime": 149,
+      "keywords_str": "optimistic, biographical fiction",
+      "poster_url": "https://image.tmdb.org/t/p/w500/5uimlxPCgAei8JfQUDFEUQLoyyh.jpg"
+    }
+  ],
+  "language_profiles": {
+    "movie_count": {
+      "Hindi": 100,
+      "Kannada": 8,
+      "Malayalam": 41,
+      "Tamil": 97,
+      "Telugu": 42
+    },
+    "avg_rating": {
+      "Hindi": 6.72,
+      "Kannada": 7.06,
+      "Malayalam": 7.31,
+      "Tamil": 6.87,
+      "Telugu": 6.86
+    },
+    "avg_runtime": {
+      "Hindi": 161.39,
+      "Kannada": 154.88,
+      "Malayalam": 144.59,
+      "Tamil": 156.4,
+      "Telugu": 163.1
+    },
+    "avg_popularity": {
+      "Hindi": 3.74,
+      "Kannada": 2.77,
+      "Malayalam": 1.09,
+      "Tamil": 1.22,
+      "Telugu": 1.74
+    },
+    "hidden_gems": {
+      "Hindi": 17,
+      "Kannada": 0,
+      "Malayalam": 6,
+      "Tamil": 8,
+      "Telugu": 3
+    },
+    "gem_rate": {
+      "Hindi": 1.7,
+      "Kannada": 0.0,
+      "Malayalam": 1.46,
+      "Tamil": 0.82,
+      "Telugu": 0.71
+    },
+    "blockbusters": {
+      "Hindi": 1,
+      "Kannada": 0,
+      "Malayalam": 0,
+      "Tamil": 0,
+      "Telugu": 0
+    }
+  }
+}
